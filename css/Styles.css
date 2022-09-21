@@ -9,11 +9,18 @@ h1{
     padding: 0;
     border-radius: 15px;
 }
+nav{
+    display: block;
+    float: left;
+    width: 25%;
+}
 .seccion1{
     color: white;
     border: 5px solid #D90429;
     border-radius: 15px;
     margin-top: 15px ;
+    float: right;
+    width: 70%;
 }
 .titulo2{
     background-color: black;
@@ -26,6 +33,7 @@ h1{
 .img{
     background-color: black;
     float: left;
+    display: inline-block;
     margin: 15px;
     border-radius: 15px;
 }
@@ -36,4 +44,49 @@ h1{
     background-color: #D90429;
     border-radius: 15px;
 
+}
+.menu{
+    background-color: #D90429;
+    max-width: 100%;
+    border-radius: 15px;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+.menu ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover{
+    background-color: red;
+}
+#titulo3{
+    background-color: #D90429;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    float: right;
+    width: 70%;
+}
+
+.seccionlink{
+    background-color: #D90429;
+    border-radius: 15px;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.seccionlink a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 5px;
+}
+.seccionlink a:hover{
+    
+    background-color: red;
+    border-radius: 15px;
 }
